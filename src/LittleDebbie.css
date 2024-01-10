@@ -1,0 +1,35 @@
+.LittleDebbie {
+  text-align: center;
+  padding: 20px;
+}
+
+.LittleDebbie h1 {
+  color: #333;
+}
+
+.LittleDebbie img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #ffc966;
+  border-color: #e69500;
+}
+
+.home {
+  background-color: #ff9999;
+}
+.cosmic {
+  background-color: #99ccff; 
+}

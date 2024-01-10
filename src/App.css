@@ -1,38 +1,66 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  position: relative; 
+}
+
+.backgroundOverlay {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1575224526797-5730d09d781d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.3; 
+  z-index: -1; 
+}
+
+.mainContent {
   text-align: center;
+  color: #fff;
+  padding: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linkButtons {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pyramid {
+  list-style-type: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pyramid li {
+  display: inline-block;
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Button-like styles for links */
+.button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Colors for different links */
+.spicy {
+  background-color: #ff8080;
+  color: black;
+}
+
+.cosmic {
+  background-color: #99ccff;
+  color: black;
+}
+
+.healthy {
+  background-color: #99ff99;
+  color: black;
 }
